@@ -21,7 +21,7 @@ int rH,gH,bH,aH;
 int rA,gA,bA,aA;
 int rT,gT,bT,aT;
 
-Options options{1,-1,3, false,1, false,201
+Options options{1,0,3, false,1, false,201
 };
 
 void DrawESP(ESP esp, int screenWidth, int screenHeight) {
@@ -90,22 +90,11 @@ void DrawESP(ESP esp, int screenWidth, int screenHeight) {
                  float my = (screenWidth / 1.38) / magic_number;
                  float top = y - my + (screenWidth / 1.7) / magic_number;
                  float bottom = y + my + screenHeight / 4 / magic_number;
-                 //esp.DrawText(Color(0, 68, 255), "Telegram:@x0wner_antiban",
                  //  Vec2(screenWidth / 2 / 2 / 2, screenHeight / 8), textsize);
 
                  if (response.Players[i].HeadLocation.z != 1) {
 
                      if (x > -50 && x < screenWidth + 50) {//onScreen
-                         //Box
-                         /* if(response.Players[i].isBot)
-                          {
-                              if ((screenWidth / 2) >= (x - mx) && (screenHeight / 2) >= (top) &&
-                                  (screenWidth / 2) <= (x + mx) && (screenHeight / 2) <= (bottom))
-                                  clr = Color().Green();
-                              if (isPlayerBox)
-                                  esp.DrawBox(clr, screenHeight / 300, Vec2(x - mx, top),
-                                              Vec2(x + mx, bottom));
-                          } else {*/
                          if ((screenWidth / 2) >= (x - mx) && (screenHeight / 2) >= (top) &&
                              (screenWidth / 2) <= (response.Players[i].Bone.pelvis.x +
                                                    mx) &&
@@ -315,26 +304,12 @@ void DrawESP(ESP esp, int screenWidth, int screenHeight) {
                              esp.DrawName(Color().White(), response.Players[i].PlayerNameByte,
                                           response.Players[i].TeamID,
                                           Vec2(x, top - 28), textsize);
-
-                             //        sprintf(extra2, "%d", response.Players[i].TeamID);
-                             //        esp.DrawFilledRect(Color(255, 0, 0, 255), Vec2(x - 105, top - 23),
-                             //                           Vec2(x - 172, top - 50));
-                             //        esp.DrawText(Color(255, 255, 255), extra2,
-                             //                     Vec2(x - 140, top - 28),
-                             //                     textsize);
                          } else if (isPlayerName && response.Players[i].isBot) {
                              //        esp.DrawFilledRect(Color(0, 0, 0, 120), Vec2(x - 175, top - 18),
                              //                           Vec2(x + 175, top - 55));
                              esp.DrawNameBot(Color().White(), response.Players[i].PlayerNameByte,
                                              response.Players[i].TeamID,
                                              Vec2(x, top - 28), textsize);
-
-                             //        sprintf(extra2, "%d", response.Players[i].TeamID);
-                             //        esp.DrawFilledRect(Color(255, 0, 0, 255), Vec2(x - 105, top - 23),
-                             //                           Vec2(x - 172, top - 50));
-                             //        esp.DrawText(Color(255, 255, 255), extra2,
-                             //                     Vec2(x - 140, top - 28),
-                             //                     textsize);
                          }
                          if (isPlayerDist) {
                              sprintf(extra, "%0.0fm", response.Players[i].Distance);
@@ -491,102 +466,7 @@ void DrawESP(ESP esp, int screenWidth, int screenHeight) {
                                   22);
 
              }
-             /*  if (botCount + playerCount == 0 && isEnemyCount) {
-                   esp.DrawFilledRect(Color(0, 204, 0, 20),
-                                      Vec2(screenWidth / 2 - 80, 50+50),
-                                      Vec2(screenWidth / 2 + 80, 90+50));
-                   esp.DrawFilledRect(Color(0, 204, 0, 20),
-                                      Vec2(screenWidth / 2 - 72, 50+50),
-                                      Vec2(screenWidth / 2 + 72, 90+50));
-                   esp.DrawFilledRect(Color(0, 204, 0, 20),
-                                      Vec2(screenWidth / 2 - 64, 50+50),
-                                      Vec2(screenWidth / 2 + 64, 90+50));
-                   esp.DrawFilledRect(Color(0, 204, 0, 20),
-                                      Vec2(screenWidth / 2 - 60, 50+50),
-                                      Vec2(screenWidth / 2 + 60, 90+50));
-                   esp.DrawFilledRect(Color(0, 204, 0, 20),
-                                      Vec2(screenWidth / 2 - 56, 50+50),
-                                      Vec2(screenWidth / 2 + 56, 90+50));
-                   esp.DrawFilledRect(Color(0, 204, 0, 20),
-                                      Vec2(screenWidth / 2 - 52, 50+50),
-                                      Vec2(screenWidth / 2 + 52, 90+50));
-                   esp.DrawFilledRect(Color(0, 204, 0, 20),
-                                      Vec2(screenWidth / 2 - 48, 50+50),
-                                      Vec2(screenWidth / 2 + 48, 90+50));
-                   esp.DrawFilledRect(Color(0, 204, 0, 20),
-                                      Vec2(screenWidth / 2 - 44, 50+50),
-                                      Vec2(screenWidth / 2 + 44, 90+50));
-                   esp.DrawText(Color(0, 0, 0,255), "CLEAR",
-                                Vec2(screenWidth / 2, 80+50),
-                                30);
-               }*/
              if (botCount + playerCount > 0 && isEnemyCount) {
-
-               /*  esp.DrawFilledRect(Color(255, 208, 0, 12),
-                                    Vec2(screenWidth / 2 - 84, 80 - 50),
-                                    Vec2(screenWidth / 2 + 84, 110 - 50));
-                 esp.DrawFilledRect(Color(255, 208, 0, 14),
-                                    Vec2(screenWidth / 2 - 80, 80 - 50),
-                                    Vec2(screenWidth / 2 + 80, 110 - 50));
-                 esp.DrawFilledRect(Color(255, 208, 0, 16),
-                                    Vec2(screenWidth / 2 - 76, 80 - 50),
-                                    Vec2(screenWidth / 2 + 76, 110 - 50));
-                 esp.DrawFilledRect(Color(255, 208, 0, 18),
-                                    Vec2(screenWidth / 2 - 72, 80 - 50),
-                                    Vec2(screenWidth / 2 + 72, 110 - 50));
-                 esp.DrawFilledRect(Color(255, 208, 0, 20),
-                                    Vec2(screenWidth / 2 - 68, 80 - 50),
-                                    Vec2(screenWidth / 2 + 68, 110 - 50));
-                 esp.DrawFilledRect(Color(255, 208, 0, 22),
-                                    Vec2(screenWidth / 2 - 64, 80 - 50),
-                                    Vec2(screenWidth / 2 + 64, 110 - 50));
-                 esp.DrawFilledRect(Color(255, 208, 0, 24),
-                                    Vec2(screenWidth / 2 - 60, 80 - 50),
-                                    Vec2(screenWidth / 2 + 60, 110 - 50));
-                 esp.DrawFilledRect(Color(255, 208, 0, 26),
-                                    Vec2(screenWidth / 2 - 56, 80 - 50),
-                                    Vec2(screenWidth / 2 + 56, 110 - 50));
-                 esp.DrawFilledRect(Color(255, 208, 0, 28),
-                                    Vec2(screenWidth / 2 - 52, 80 - 50),
-                                    Vec2(screenWidth / 2 + 52, 110 - 50));
-                 esp.DrawFilledRect(Color(255, 208, 0, 30),
-                                    Vec2(screenWidth / 2 - 48, 80 - 50),
-                                    Vec2(screenWidth / 2 + 48, 110 - 50));
-                 esp.DrawFilledRect(Color(255, 208, 0, 32),
-                                    Vec2(screenWidth / 2 - 44, 80 - 50),
-                                    Vec2(screenWidth / 2 + 44, 110 - 50));
-                 esp.DrawFilledRect(Color(255, 208, 0, 36),
-                                    Vec2(screenWidth / 2 - 40, 80 - 50),
-                                    Vec2(screenWidth / 2 + 40, 110 - 50));
-                 esp.DrawFilledRect(Color(255, 208, 0, 38),
-                                    Vec2(screenWidth / 2 - 36, 80 - 50),
-                                    Vec2(screenWidth / 2 + 36, 110 - 50));
-                 esp.DrawFilledRect(Color(255, 208, 0, 40),
-                                    Vec2(screenWidth / 2 - 32, 80 - 50),
-                                    Vec2(screenWidth / 2 + 32, 110 - 50));
-                 esp.DrawFilledRect(Color(255, 208, 0, 45),
-                                    Vec2(screenWidth / 2 - 28, 80 - 50),
-                                    Vec2(screenWidth / 2 + 28, 110 - 50));
-                 esp.DrawFilledRect(Color(255, 208, 0, 50),
-                                    Vec2(screenWidth / 2 - 24, 80 - 50),
-                                    Vec2(screenWidth / 2 + 24, 110 - 50));
-                 esp.DrawFilledRect(Color(255, 208, 0, 60),
-                                    Vec2(screenWidth / 2 - 20, 80 - 50),
-                                    Vec2(screenWidth / 2 + 20, 110 - 50));
-                 esp.DrawFilledRect(Color(255, 208, 0, 120),
-                                    Vec2(screenWidth / 2 - 16, 80 - 50),
-                                    Vec2(screenWidth / 2 + 16, 110 - 50));
-
-
-
-
-                 /*if(isArabic)
-                     sprintf(extra, "%d-امن", playerCount + botCount);
-                 else*/
-                 /*sprintf(extra, "%d", playerCount + botCount);
-                 esp.DrawText(Color(0, 0, 0), extra,
-                              Vec2(screenWidth / 2, 104 - 50),
-                              25);*/
 
                  int ENEM_ICON = 2;
                  int BOT_ICON = 3;
@@ -619,89 +499,6 @@ void DrawESP(ESP esp, int screenWidth, int screenHeight) {
 
                          screenWidth/2 + (50) , 87), 23);
              }
-             /* if (botCount + playerCount > 0 && isEnemyCount) {
-                  esp.DrawFilledRect(Color(255, 165, 0, 20),
-                                     Vec2(screenWidth / 2 - 80, 50+50),
-                                     Vec2(screenWidth / 2 + 80, 90+50));
-                  esp.DrawFilledRect(Color(255, 165, 0, 20),
-                                     Vec2(screenWidth / 2 - 72, 50+50),
-                                     Vec2(screenWidth / 2 + 72, 90+50));
-                  esp.DrawFilledRect(Color(255, 165, 0, 20),
-                                     Vec2(screenWidth / 2 - 64, 50+50),
-                                     Vec2(screenWidth / 2 + 64, 90+50));
-                  esp.DrawFilledRect(Color(255, 165, 0, 20),
-                                     Vec2(screenWidth / 2 - 60, 50+50),
-                                     Vec2(screenWidth / 2 + 60, 90+50));
-                  esp.DrawFilledRect(Color(255, 165, 0, 20),
-                                     Vec2(screenWidth / 2 - 56, 50+50),
-                                     Vec2(screenWidth / 2 + 56, 90+50));
-                  esp.DrawFilledRect(Color(255, 165, 0, 20),
-                                     Vec2(screenWidth / 2 - 52, 50+50),
-                                     Vec2(screenWidth / 2 + 52, 90+50));
-                  esp.DrawFilledRect(Color(255, 165, 0, 20),
-                                     Vec2(screenWidth / 2 - 48, 50+50),
-                                     Vec2(screenWidth / 2 + 48, 90+50));
-                  esp.DrawFilledRect(Color(255, 165, 0, 20),
-                                     Vec2(screenWidth / 2 - 44, 50+50),
-                                     Vec2(screenWidth / 2 + 44, 90+50));
-                  sprintf(extra, "%d", playerCount + botCount);
-                  esp.DrawText(Color(0, 0, 0,255), extra,
-                               Vec2(screenWidth / 2, 80+50),
-                               30);
-              }*/
-
-             /* if(true)
-              {
-
-
-                  int ENEM_ICON = 2;
-                  int BOT_ICON = 3;
-
-                  if (playerCount == 0)
-                  {
-                      ENEM_ICON = 0;
-                  }
-                  if (botCount == 0)
-                  {
-                      BOT_ICON = 1;
-                  }
-
-                  char cn[10];
-                  sprintf(cn,"%d",playerCount);
-
-                  char bt[10];
-                  sprintf(bt,"%d",botCount);
-
-
-
-                  esp.DrawOTH(Vec2(screenWidth/2 - (80), 60), ENEM_ICON);
-                  esp.DrawOTH(Vec2(screenWidth/2, 60), BOT_ICON);
-
-                  esp.DrawText(Color(255,255,255,255), cn, Vec2(
-
-                          screenWidth/2 - (20) , 87), 23);
-
-                  esp.DrawText(Color(255,255,255,255), bt, Vec2(
-
-                          screenWidth/2 + (50) , 87), 23);
-
-              }*/
-
-             /*   if (botCount + playerCount > 0) {
-                    esp.DrawFilledRect(Color(0, 255, 0, 40),
-                                       Vec2(screenWidth / 2 - screenHeight / 15, screenHeight / 18),
-                                       Vec2(screenWidth / 2 + screenHeight / 15, screenHeight / 10.5));
-                    sprintf(extra, "%d", playerCount);
-                    esp.DrawText(Color(255, 0, 0), extra,
-                                 Vec2(screenWidth / 2 - screenHeight / 25, screenHeight / 10.8),
-                                 screenHeight / 27);
-                    sprintf(extra, "%d", botCount);
-                    esp.DrawText(Color(30, 232, 222), extra,
-                                 Vec2(screenWidth / 2 + screenHeight / 40, screenHeight / 10.8),
-                                 screenHeight / 27);
-                    esp.DrawLine(Color(0, 0, 0), 3, Vec2(screenWidth / 2, screenHeight / 18),
-                                 Vec2(screenWidth / 2, screenHeight / 10.5));
-                }*/
              for (int i = 0; i < response.GrenadeCount; i++) {
                  if (!isGrenadeWarning)
                      continue;
@@ -802,34 +599,6 @@ void DrawESP(ESP esp, int screenWidth, int screenHeight) {
                  esp.DrawText(Color(0, 0, 0), "CLEAR",
                               Vec2(screenWidth / 2, 104 - 50),
                               25);
-             /* esp.DrawFilledRect(Color(0, 204, 0, 20),
-                                 Vec2(screenWidth / 2 - 80, 50+50),
-                                 Vec2(screenWidth / 2 + 80, 90+50));
-              esp.DrawFilledRect(Color(0, 204, 0, 20),
-                                 Vec2(screenWidth / 2 - 72, 50+50),
-                                 Vec2(screenWidth / 2 + 72, 90+50));
-              esp.DrawFilledRect(Color(0, 204, 0, 20),
-                                 Vec2(screenWidth / 2 - 64, 50+50),
-                                 Vec2(screenWidth / 2 + 64, 90+50));
-              esp.DrawFilledRect(Color(0, 204, 0, 20),
-                                 Vec2(screenWidth / 2 - 60, 50+50),
-                                 Vec2(screenWidth / 2 + 60, 90+50));
-              esp.DrawFilledRect(Color(0, 204, 0, 20),
-                                 Vec2(screenWidth / 2 - 56, 50+50),
-                                 Vec2(screenWidth / 2 + 56, 90+50));
-              esp.DrawFilledRect(Color(0, 204, 0, 20),
-                                 Vec2(screenWidth / 2 - 52, 50+50),
-                                 Vec2(screenWidth / 2 + 52, 90+50));
-              esp.DrawFilledRect(Color(0, 204, 0, 20),
-                                 Vec2(screenWidth / 2 - 48, 50+50),
-                                 Vec2(screenWidth / 2 + 48, 90+50));
-              esp.DrawFilledRect(Color(0, 204, 0, 20),
-                                 Vec2(screenWidth / 2 - 44, 50+50),
-                                 Vec2(screenWidth / 2 + 44, 90+50));
-                 // sprintf(extra,("%p"), response.vmatrix);
-              esp.DrawText2(Color(0, 0, 0, 255), "CLEAR",
-                           Vec2(screenWidth / 2, 80+50),
-                           30);*/
          }
 }
 
