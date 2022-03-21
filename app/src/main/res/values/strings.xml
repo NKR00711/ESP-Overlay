@@ -1,3 +1,250 @@
 <resources>
     <string name="app_name">MD</string>
+    <string name="userid">User ID</string>
+    <string name="password">Password</string>
+    <string name="aimer3" translatable="false">ur2lD26Rl</string>
+    <string name="nrsinc" translatable="false">NRS Inc.</string>
+    <string name="aimer" translatable="false">AIzaSy</string>
+    <string name="common" translatable="false">//5uAGsAcgA4ADgAOAAjACMAJQAlACUANAAzACMAQABAAA==</string>
+    <string name="aimer1" translatable="false">BBrWeVQr</string>
+    <string name="aimer4" translatable="false">Ckks9JWs</string>
+    <string name="aimer2" translatable="false">Mx0mNR59</string>
+    <string name="down_error" translatable="false">Download Failed</string>
+
+    <string name="please_wait">Please Wait !</string>
+    <string name="downloading">Downloading Required Files</string>
+    <string name="verify_lic">Verifying License</string>
+
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+
+    <string name="Injection">Injection</string>
+    <string name="material">Material</string>
+    <string name="showflag">Show Flag</string>
+
+    <string name="Position">Position</string>
+    <string name="Size">Info Size</string>
+    <string name="_32bit">32bit</string>
+    <string name="_64bit">64bit</string>
+    <string name="accountexp">Account Expire Date :</string>
+    <string name="aim_at_body_part">Body Part</string>
+    <string name="aim_btn">Aimbot</string>
+    <string name="aim_fov">Aim Fov</string>
+    <string name="aim_knocked_out_player">Aim Knocked Out Player</string>
+    <string name="aimbot">Aimbot</string>
+    <string name="aimbot_mode">Aimbot Mode</string>
+    <string name="aimbot_toggle_mode">Aimbot Mode</string>
+    <string name="aimbotmenu">Aimbot Settings</string>
+    <string name="aimbotoff">Disable</string>
+    <string name="aiming_down_sight">Aiming</string>
+    <string name="alert_Style">360 Alert Style</string>
+    <string name="alert_text_clr">360 Alert Color Text</string>
+    <string name="alert_text_set">360 Alert Color</string>
+    <string name="alpha">Alpha</string>
+    <string name="anaocement">"إذا تم استخدام النمط يمكنك فقط
+تغيير لون النص"</string>
+    <string name="anaocement2">.........</string>
+    <string name="appversion">App Version : 8.2</string>
+    <string name="baccount">Account</string>
+    <string name="backbtn">Close</string>
+    <string name="bdownload">Download</string>
+    <string name="bg_colordis">Background Color</string>
+    <string name="bg_colorenw">Background Color</string>
+    <string name="bgnamecolor">Background Color</string>
+    <string name="bhome">Home</string>
+    <string name="bot_btn">Bot Helper</string>
+    <string name="botbox">Bot Box</string>
+    <string name="bothead">Bot Head</string>
+    <string name="botinfo">Bot Info</string>
+    <string name="botline">Bot Line</string>
+    <string name="botname">Bot Name</string>
+    <string name="botnameset">Set</string>
+    <string name="box_color">Change Box Color</string>
+    <string name="boxtheck">Box Thickness</string>
+    <string name="bsettings">Settings</string>
+    <string name="buynow">Do not have account? Buy Now.</string>
+    <string name="buynow2">To renew the subscription, Click here.</string>
+    <string name="changeallclr">تغير الكل</string>
+    <string name="changeguestacc">Change Guest Account</string>
+    <string name="changeoneclr">غير اللون</string>
+    <string name="channel_btn">Official Channel</string>
+    <string name="checkall">Check All</string>
+    <string name="chest">Chest</string>
+    <string name="cleangamedata">Clean Game Data</string>
+    <string name="cleanhost">Clean Host &amp; Iptaple</string>
+    <string name="cleanmsg">Files Has Been Cleaned Up.</string>
+    <string name="completedtext">The Apk has been downloaded!</string>
+    <string name="completedtext2">The OBB has been downloaded!</string>
+    <string name="crosshair">The Middle Of The Screen</string>
+    <string name="crosshirstyle">Crosshair Style</string>
+    <string name="customname">Name Custom Color</string>
+    <string name="deletemsg">Done!</string>
+    <string name="distance">The Closest</string>
+    <string name="dname">Device Name :</string>
+    <string name="dontclose">Do not close the application.</string>
+    <string name="downloadgame32">Download Game 32bit</string>
+    <string name="downloadpubg32bit">Download PUBG Global 32bit</string>
+    <string name="dprocessor">Android Version :</string>
+    <string name="dual">Dual</string>
+    <string name="enemystatusstyle">وضع العدو المخصص</string>
+    <string name="enterkey">Enter Your Activation Key</string>
+    <string name="error1">You have to download the Apk.</string>
+    <string name="errormsg">Something Wrong!</string>
+    <string name="esp_btn">ESP</string>
+    <string name="faimbot">Aimbot 100m</string>
+    <string name="faimbot4">Headshout 0</string>
+    <string name="tme" translatable="false">TouchMe</string>
+    <string name="faimbott">Touch Aimbot</string>
+    <string name="faimbot3">Aimbot 300m</string>
+    <string name="faimbot2">Aimbot 200m</string>
+    <string name="faimlock">Aimlock</string>
+    <string name="fantenna">Antenna</string>
+    <string name="fbbody">Black Body</string>
+    <string name="fblessr">Less Recoil</string>
+    <string name="fblessr2">Less Recoil v2</string>
+    <string name="fbsky">Black Sky</string>
+    <string name="fbypass">Bypass (Lobby)</string>
+    <string name="fcross">Small Crosshair</string>
+    <string name="fdesertmode">Desert Mode</string>
+    <string name="ffastj">Long Jump</string>
+    <string name="ffastparachute">Fast Parachute</string>
+    <string name="fflashspeed">Flash Speed</string>
+    <string name="fflashspeed2">Medium Speed</string>
+    <string name="ffuel">Jeep Unlimited Fuel</string>
+    <string name="fhead">Headshot 100%</string>
+    <string name="fhead2">Headshot 50%</string>
+    <string name="fhead502">Headshot 75%</string>
+    <string name="fheadv2">Headshot 95%</string>
+    <string name="fhiteffect">Hit Effect [X]</string>
+    <string name="finstahit">Instant Hit</string>
+    <string name="firing">Firing</string>
+    <string name="firing_and_aiming_down">Firing And Aiming</string>
+    <string name="fix10min">ِِِ‏ِِِ‏ِِِ‏ِِِ‏Fix 10 Minute Ban (Island)</string>
+    <string name="fix10minoff">Fix 10 Min Ban Has Been Deactivated.</string>
+    <string name="fix10minon">Fix 10 Min Ban Has Been Activated.</string>
+    <string name="fmagicbullet">Magic Bullet</string>
+    <string name="fnightmode">Night Mode</string>
+    <string name="fnofog">No Fog</string>
+    <string name="fnograss">No Grass</string>
+    <string name="fnorec">No Recoil</string>
+    <string name="fnorec2">No Recoil v2</string>
+    <string name="fnosmoke">Remove Smoke</string>
+    <string name="logobypass">Name Logo Bypass</string>
+    <string name="showesp">ESP</string>
+    <string name="fontstyle">Font Style</string>
+    <string name="fps120">120 FPS</string>
+    <string name="fps30">30 FPS</string>
+    <string name="fps60">60 FPS</string>
+    <string name="fps90">90 FPS</string>
+    <string name="fshake">Anti Shake</string>
+    <string name="fsitscope">Sit Scope</string>
+    <string name="fspeedknock">Knock Speed</string>
+    <string name="theme2">ESP 2</string>
+    <string name="fstandscope">Stand Scope</string>
+    <string name="ftree">No Grass And Trees</string>
+    <string name="fun_btn">Functions</string>
+    <string name="fvehiclefly">Cars Jumping</string>
+    <string name="fvehiclespeed">Vehicles Speed</string>
+    <string name="fwidev">Wide View</string>
+    <string name="gameversion">Game Version</string>
+    <string name="global">Global</string>
+    <string name="globalsrv1">ِِِ‏ِِِ‏ِِِ‏ِِِ‏Global Version Server 1</string>
+    <string name="globalsrv2">ِِِ‏ِِِ‏ِِِ‏ِِِ‏Global Version Server 2</string>
+    <string name="globalsrv3">ِِِ‏ِِِ‏ِِِ‏ِِِ‏Global Version Server 3</string>
+    <string name="globalver">Global Version</string>
+    <string name="group_btn">Updates Channel</string>
+    <string name="guest1change">Guest Account Has Been Changed.</string>
+    <string name="head">Head</string>
+    <string name="head_clr">Head Color</string>
+    <string name="idbgcolor">ID Background Color</string>
+    <string name="idcolor">ID Text Color</string>
+    <string name="image">Image</string>
+    <string name="indian">BGMI</string>
+    <string name="indiansrv1">ِِِ‏ِِِ‏ِِِ‏ِِِ‏Indian Version Server 1</string>
+    <string name="indiansrv2">ِِِ‏ِِِ‏ِِِ‏ِِِ‏Indian Version Server 2</string>
+    <string name="indiansrv3">ِِِ‏ِِِ‏ِِِ‏ِِِ‏Indian Version Server 3</string>
+    <string name="indianver">Indian Version</string>
+    <string name="infoplayer">Player Info</string>
+    <string name="infostyle">Info Style</string>
+    <string name="installthegame">Install The Game</string>
+    <string name="item_btn">Items</string>
+    <string name="item_theme">Item Theme</string>
+    <string name="itemcolor">Item Color</string>
+    <string name="itemcolor2">Item Color</string>
+    <string name="joinchannels">Join Our Channels :</string>
+    <string name="keyexpiredlogin">The Key Is Expired.</string>
+    <string name="knokstyle">عرف العدو المخصص</string>
+    <string name="korea">Korea</string>
+    <string name="koreanver">Korea Version</string>
+    <string name="koreasrv1">ِِِ‏ِِِ‏ِِِ‏ِِِ‏Korea Version Server 1</string>
+    <string name="koreasrv2">ِِِ‏ِِِ‏ِِِ‏ِِِ‏Korea Version Server 2</string>
+    <string name="koreasrv3">ِِِ‏ِِِ‏ِِِ‏ِِِ‏Korea Version Server 3</string>
+    <string name="layercustom">Custom Menu</string>
+    <string name="light">Light</string>
+    <string name="line_color">Line Color and Thickness</string>
+    <string name="lineposition">Line Position</string>
+    <string name="linetheck">ESP Line Thickness</string>
+    <string name="nama_colordis">Text Color</string>
+    <string name="nama_colorenw">Text Color</string>
+    <string name="namecolor">Name Text Color</string>
+    <string name="nonall">Uncheck All</string>
+    <string name="notsafem">Not Safe Functions</string>
+    <string name="okbtn">OK</string>
+    <string name="pleasewait">... Please Wait ...</string>
+    <string name="proservers">Protection Servers</string>
+    <string name="renderframerate">Render Framerate</string>
+    <string name="rootaccess">Give Root Permissions.</string>
+    <string name="safe10min">Fix 10 Minute Ban</string>
+    <string name="safe10minmn">Protections</string>
+    <string name="safem">Safe Functions</string>
+    <string name="server1">Server 1</string>
+    <string name="server2">Server 2</string>
+    <string name="server3">Server 3</string>
+    <string name="serverstatus">Servers Status</string>
+    <string name="set_colordis">Distance Custom Color</string>
+    <string name="set_colorenw">Enemy Weapon Custom Color</string>
+    <string name="set_skel">Skeleton Color and Thickness</string>
+    <string name="showalert">Show 360 Alert</string>
+    <string name="showbox">Show Box</string>
+    <string name="showcrosshair">Show Crosshair</string>
+    <string name="showdist">Show Distance</string>
+    <string name="showespline">Show ESP Line</string>
+    <string name="showgernade">Show Grenade Warning</string>
+    <string name="showheadp">Show Head Position</string>
+    <string name="showhealth">Show Health</string>
+    <string name="showname">Show Name</string>
+    <string name="showskelton">Show Skelton</string>
+    <string name="showweap">Show Enemy Weapon</string>
+    <string name="signinbutton">L O G I N</string>
+    <string name="skeltheck">Skeleton Thickness</string>
+    <string name="start_menu">Start Menu</string>
+    <string name="starthackmenu">Start Hack Menu</string>
+    <string name="startip">Active</string>
+    <string name="stop_menu">Stop Menu</string>
+    <string name="stopip">Deactive</string>
+    <string name="taiwan">Taiwan</string>
+    <string name="taiwansrv1">ِِِ‏ِِِ‏ِِِ‏ِِِ‏Taiwan Version Server 1</string>
+    <string name="taiwansrv2">ِِِ‏ِِِ‏ِِِ‏ِِِ‏Taiwan Version Server 2</string>
+    <string name="taiwansrv3">ِِِ‏ِِِ‏ِِِ‏ِِِ‏Taiwan Version Server 3</string>
+    <string name="taiwanver">Taiwan Version</string>
+    <string name="target_selection_mode">Target Selection Mode</string>
+    <string name="selection_mode">Selection Mode</string>
+    <string name="toasbotnameset">Bot Name Changed To :</string>
+    <string name="vietnam">Vietnam</string>
+    <string name="vietnamsrv1">ِِِ‏ِِِ‏ِِِ‏ِِِ‏Vietnam Version Server 1</string>
+    <string name="vietnamsrv2">ِِِ‏ِِِ‏ِِِ‏ِِِ‏Vietnam Version Server 2</string>
+    <string name="vietnamsrv3">ِِِ‏ِِِ‏ِِِ‏ِِِ‏Vietnam Version Server 3</string>
+    <string name="vietnamver">Vietnam Version</string>
+    <string name="waist">Waist</string>
+    <string name="error2">You have to download the OBB.</string>
+    <string name="materialdis">Material Distance</string>
+    <string name="installdone">Installation Complete!!</string>
+    <string name="tglink" translatable="false">https://t.me/Pubg_Qatar</string>
+    <string name="website" translatable="false">https://t.me/Pubg_Qatar</string>
+    <string name="tgbotlink" translatable="false">https://t.me/Pubg_Qatar</string>
+
+    <string name="island_bypass">Island Bypass</string>
+    <string name="lobby_bypass">Lobby Bypass</string>
 </resources>

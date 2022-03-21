@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="end|start|fill_horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:textAlignment="viewEnd"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center|top" android:id="@+id/relativeLayoutParent7" android:layout_width="100.0dip" android:layout_height="100.0dip">
+        <ToggleButton android:id="@+id/FLASHSHOW" android:background="@drawable/togglethemeflash" android:layout_width="50.0dip" android:layout_height="50.0dip" android:textOn="" android:textOff="" android:text="" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</FrameLayout>

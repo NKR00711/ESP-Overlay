@@ -1,10 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="yellow_dark">#3F51B5</color>
+    <color name="red">#F44336</color>
+    <color name="yellow">#FFC107</color>
+    <color name="accent">#03A9F4</color>
+    <color name="fab_redNormal">#F44336</color>
+
+    <color name="blue">#ff002143</color>
+    <color name="blue_light">#F00051A5</color>
+    <color name="orange">#ECB900</color>
+    <color name="blue_dark">#ff1c1d30</color>
+
+
+    <color name="black2">#ffffffff</color>
+    <color name="grey">#ff2e343b</color>
+    <color name="white_color">#ffffffff</color>
+
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="blue_sky">#0091ea</color>
+    <color name="dark">#212121</color>
+    <color name="dark_2">#393939</color>
+    <color name="dark_3">#616161</color>
 </resources>

@@ -1,0 +1,47 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--item name="fontFamily">@font/font</item-->
+        <item name="android:windowActivityTransitions">true</item>
+        <!-- Customize your theme here. -->
+        <!--item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item-->
+    </style>
+
+    <style name="mySpinnerItemStyle" parent="@android:style/Widget.Holo.DropDownItem.Spinner">
+        <item name="android:background">@drawable/bgradient_spinner</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:popupBackground">@color/orange</item>
+    </style>
+    <style name="modifiedEditText" parent="@style/parent">
+        <item name="android:textSize">@dimen/newsMoreTextSize</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:backgroundTint">@color/black2</item>
+    </style>
+    <style name="parent">
+        <item name="android:textColor">@color/grey</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="ItemTouchClickable">
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:foreground">?android:attr/selectableItemBackgroundBorderless</item>
+    </style>
+    <style name="Theme.CCheats2" parent="@style/Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/dark</item>
+        <item name="android:navigationBarColor">@color/dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorOnSecondary">@color/dark</item>
+        <item name="colorPrimary">@color/blue_sky</item>
+        <item name="colorPrimaryVariant">@color/dark_3</item>
+        <item name="colorSecondary">@color/blue_sky</item>
+        <item name="colorSecondaryVariant">@color/blue_sky</item>
+    </style>
+</resources>

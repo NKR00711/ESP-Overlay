@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <dimen name="function_margin">8.0dip</dimen>
+    <dimen name="newsMoreTextSize">12.0sp</dimen>
+    <dimen name="switch_padding">-1.0dip</dimen>
+    <dimen name="switch_radius">20.0dip</dimen>
+    <dimen name="switch_size">20.0dip</dimen>
+</resources>
+
