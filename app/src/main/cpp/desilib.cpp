@@ -96,6 +96,8 @@ Java_me_app_md_FloatWin_SettingValue(JNIEnv *,  jobject ,jint code,jboolean jboo
             isNation = jboolean1;  break;
         case 19:
             isArabic = jboolean1;  break;
+        case 20 :
+            memory.LessRecoil = jboolean1; break;
     }
 }
 
