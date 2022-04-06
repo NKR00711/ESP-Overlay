@@ -23,6 +23,7 @@ int rT,gT,bT,aT;
 
 Options options{1,0,3, false,1, false,201
 };
+Memory memory{false,false,false,false,false,false,false,false};
 
 void DrawESP(ESP esp, int screenWidth, int screenHeight) {
          botCount = 0;
@@ -30,6 +31,7 @@ void DrawESP(ESP esp, int screenWidth, int screenHeight) {
          request.ScreenHeight = screenHeight;
          request.ScreenWidth = screenWidth;
          request.Mode = InitMode;
+         reguest.memory= memory;
          request.options = options;
          send((void *) &request, sizeof(request));
          receive((void *) &response);
