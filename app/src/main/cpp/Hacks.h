@@ -31,7 +31,7 @@ void DrawESP(ESP esp, int screenWidth, int screenHeight) {
          request.ScreenHeight = screenHeight;
          request.ScreenWidth = screenWidth;
          request.Mode = InitMode;
-         reguest.memory= memory;
+         request.memory= memory;
          request.options = options;
          send((void *) &request, sizeof(request));
          receive((void *) &response);

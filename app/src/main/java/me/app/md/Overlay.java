@@ -102,9 +102,9 @@ static Context ctx;
         File del= new File(context.getFilesDir() + "/bitmap.so");
         del.delete();
 
-        InputStream in=context.getResources().openRawResource(R.raw.walker);
+        InputStream in=context.getResources().openRawResource(R.raw.rock);
         if(bit==1)
-            in=context.getResources().openRawResource(R.raw.esp32);
+            in=context.getResources().openRawResource(R.raw.roll);
        FileOutputStream out ;
 
         try {

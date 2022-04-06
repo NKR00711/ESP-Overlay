@@ -43,13 +43,6 @@ public:
     static Color Green(){
         return Color(0,255,0);
     }
-
-    static Color Yellow(){
-        return Color(240,255,0);
-    }
-    static Color Red(){
-        return Color(255,0,0);
-    }
 };
 
 class Rect {
@@ -153,10 +146,16 @@ enum Mode {
     StopMode = 4,
 };
 
-struct Custom{
-    int itemStyle;
+struct Options {
+    int aimbotmode;
+    int openState;
+    int aimingState;
+    bool tracingStatus;
+    int priority;
+    bool pour;
+    int aimingRange;
+    // int ignorBot;
 };
-
 struct Memory {
     bool LessRecoil;
     bool ZeroRecoil;
@@ -166,16 +165,6 @@ struct Memory {
     bool SmallCrosshair;
     bool NoShake;
     bool FastSwitchWeapon;
-};
-
-struct Options {
-    int aimbotmode;
-    int openState;
-    int aimingState;
-    bool tracingStatus;
-    int priority;
-    bool pour;
-    int aimingRange;
 };
 struct Request {
     int Mode;
@@ -219,6 +208,7 @@ struct PlayerData {
     PlayerWeapon Weapon;
     PlayerBone Bone;
     char PlayerNation[100];
+    char PlayerUID[100];
 };
 
 struct Response {
