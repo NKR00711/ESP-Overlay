@@ -157,6 +157,17 @@ struct Custom{
     int itemStyle;
 };
 
+struct Memory {
+    bool LessRecoil;
+    bool ZeroRecoil;
+    bool InstantHit;
+    bool FastShootInterval;
+    bool HitX;
+    bool SmallCrosshair;
+    bool NoShake;
+    bool FastSwitchWeapon;
+};
+
 struct Options {
     int aimbotmode;
     int openState;
@@ -169,6 +180,7 @@ struct Options {
 struct Request {
     int Mode;
     Options options;
+    Memory memory;
     int ScreenWidth;
     int ScreenHeight;
 };
