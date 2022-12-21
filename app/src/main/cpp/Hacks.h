@@ -598,7 +598,7 @@ void DrawESP(ESP esp, int screenWidth, int screenHeight) {
                               Vec2(screenWidth / 2, 104 - 50),
                               22);
              else
-                 esp.DrawText(Color(0, 0, 0), "CLEAR",
+                 esp.DrawText(Color(0, 0, 0), "BLACKSHARKMOD",
                               Vec2(screenWidth / 2, 104 - 50),
                               25);
          }
